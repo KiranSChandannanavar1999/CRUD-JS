@@ -1,0 +1,8 @@
+@media(max-width:992px){
+    .container{
+        flex-flow: column;
+    }
+    header{
+        padding: 20px;
+    }
+}

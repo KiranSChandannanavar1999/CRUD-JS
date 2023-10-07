@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    transition: 0.5s ease-in-out;
+}
+.container{
+    display: flex;
+    /* flex-flow: row wrap; */
+    gap: 20px;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    padding: 0px 70px;
+}
+header>h3{
+    /* text-shadow: 2px 2px 2px #000; */
+    color: #fff;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header>nav>ul>li:hover{
+    background-color: #fff;
+}
+header>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+header>nav>ul>li:hover a{
+    color: #808080;
+}
+.title{
+    text-align: center;
+    color: grey;
+    text-shadow: 2px 2px 2px lightgray;
+    margin: 30px;
+}
+.insertBox{
+    justify-content: center;
+    align-items: center;
+}
+.insertBox>div{
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+.insertBox>div>h3{
+    color: lightgray;
+}
+.insertBox>div>input, .insertBox>div>textarea{
+   display: block;
+   margin: 20px auto;
+   width: 100%;
+   font-size: 15px;
+}
+.insertBox>div>textarea{
+    height: 100px;
+}
+.insertBox>div>input[type='submit']{
+    background-color: lightgray;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0%;
+}
+.insertBox>div>input[type='submit']:hover{
+    background-color: gray;
+}
